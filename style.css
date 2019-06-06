@@ -26,7 +26,8 @@ header {
 	height: auto;
 }
 .nav-area {
-	float: right;
+	position: absolute;
+	margin-left: 75%;
 	list-style: none;
 	margin-top: 30px;
 }
