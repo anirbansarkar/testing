@@ -3,14 +3,17 @@
 	padding: 0;
 }
 .wrapper {
-	width: 1170px;
+	width=device-width;
 	margin: auto;
 }
 header {
 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/background.jpg");
 	height: 100vh;
+	width=device-width;
 	-webkit-background-size: cover;
 	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
 	background-position: center center;
 	position: relative;
 }
