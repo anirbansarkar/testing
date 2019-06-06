@@ -1,2 +1,2 @@
 # testing
-This is a test repository
+permalink: /index.html
