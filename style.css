@@ -19,7 +19,7 @@ header {
 	position: relative;
 }
 .logo img {
-	width: 100px;
+	width: 10%;
 	margin-left: 5%;
 	margin-top: 2%;
 	float: left;
@@ -28,6 +28,7 @@ header {
 }
 .nav-area {
 	float: right;
+	margin-right:5%;
 	list-style: none;
 	margin-top: 2%;
 }
