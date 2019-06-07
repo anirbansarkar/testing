@@ -46,7 +46,6 @@ header {
 	color: #000;
 }
 .welcome {
-	float: bottom;
 	background: rgba(192, 192, 192, 0.2);
 	text-align: center;
 	margin-bottom: 5%;
