@@ -46,12 +46,14 @@ header {
 	color: #000;
 }
 .welcome {
-	position: absolute;
+	float: bottom;
 	background: rgba(192, 192, 192, 0.2);
 	text-align: center;
-	margin-top: 30%;
+	margin-bottom: 5%;
+	bottom: 0;
 	width: 100%;
 	height: auto;
+	position: absolute;
 }
 .welcome h1 {
 	text-align: center;
