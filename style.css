@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width=device-width;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/background1.jpg");
+	height: 100vh;
+	width=device-width;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+.logo img {
+	width: 100px;
+	margin-left: 5%;
+	margin-top: 2%;
+	height: auto;
+	position: absolute;
+}
+.nav-area {
+	float: right;
+	margin-right: 5%;
+	list-style: none;
+	margin-top: 2%;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: cursive;
+	font-size: 14px;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #000;
+}
+.welcome {
+	background: rgba(192, 192, 192, 0.2);
+	text-align: center;
+	margin-bottom: 5%;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+.welcome h1 {
+	text-align: center;
+	color: #fff;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	font-family: serif;
+	font-style: oblique;
+	font-size: 40px;
+}
+.welcome a {
+	border: 1px solid #fff;
+	border-radius: 15px;
+	padding: 10px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	font-family: arial;
+	color: #fff;
+}
+.welcome a:hover {
+	background: #fff;
+	color: #000;
+}
