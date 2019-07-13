@@ -1,0 +1,135 @@
+.heading {
+	margin-top:5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.heading h1 {
+	color: #fff;
+	font-family: serif;
+	font-style: oblique;
+}
+.tabledetails {
+	vertical-align: middle;
+}
+.tabledetails table {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.tabledetails table td,th {
+	border: 1px solid #ddd;
+  	padding: 8px;
+}
+.tabledetails table tr {
+	background-color: rgb(0,0,0,0.5);
+	padding-top: 12px;
+	padding-bottom: 12px;
+  	text-align: center;
+  	color: #c0c0c0;
+}
+.tabledetails table tr:NTH-CHILD(odd) {
+	background-color: rgb(192,192,192,0.08);
+	padding-top: 12px;
+	padding-bottom: 12px;
+  	text-align: center;
+  	color: #c0c0c0;
+}
+.tabledetails table th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+  	text-align: center;
+  	background-color: rgb(192,192,192,0.5);
+  	color: #fff;
+}
+.alertbox {
+	vertical-align: middle;
+}
+.box {
+	margin-left:auto;
+	margin-right:auto;
+	width: 70%;
+	height: auto;
+	background-color: rgb(192,192,192,0.5);
+	border-radius: 25px; 
+	border: 3px dashed #ff0000;
+}
+.alert {
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.alert h1 {
+	text-align: center;
+	font-family: serif;
+	color: red;
+	text-transform: uppercase;
+	font-style: normal;
+}
+.product_alert {
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product_alert h2 {
+	font-family: Lucida Console;
+	color: #fff;
+	text-align: center;
+}
+.product_alert ul {
+	color: #fff;
+	padding-top: 3%;
+	margin-left : 20%;
+	font-size: 20px;
+	list-style-type: square;
+}
+.product_alert ul li {
+	font-family: Lucida Console;
+	color: #fff;
+	font-size: 20px;
+	padding: 2px;
+}
+#form {
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#form table td,th {
+	border: 1px solid #ddd;
+  	padding: 8px;
+}
+#form table tr {
+	background-color: rgb(0,0,0,0.5);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 80px;
+	padding-right: 80px;
+  	text-align: center;
+  	color: #c0c0c0;
+}
+#form table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 80px;
+	padding-right: 80px;
+  	text-align: center;
+  	background-color: rgb(192,192,192,0.5);
+  	color: #fff;
+}
+#submit{
+	margin-top: 5%;
+	margin-left: 43%;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: inline-block;
+	font-family: arial;
+	color: #fff;
+	background-color: rgb(0,0,0,0.5);
+}
+#submit:hover {
+	background: #fff;
+	color: #000;
+}
