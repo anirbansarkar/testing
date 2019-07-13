@@ -1,2 +1,0 @@
-# testing
-permalink: /index.html
