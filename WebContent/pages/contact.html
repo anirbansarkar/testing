@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="shortcut icon" href="images/icon.ico" />
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/background1.jpg");
+			height: 100vh;
+			-webkit-background-size: cover;
+			background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size:cover;
+			background-position: center center;
+			position: relative;
+		}
+		h3 {
+			color: #c0c0c0;
+			padding-top: 5%;
+			margin-left: 10%;
+			font-family: serif;
+			font-style: oblique;
+		}
+		.container {
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width : 40%;
+			background: rgba(0,0,0,0.5);
+			height: auto;
+		}
+		#map {
+			margin-top: 5%;
+			width: 80%;
+			height: 400px;
+			margin-left: 10%;
+		} 
+		.contact {
+			color: #c0c0c0;
+			margin-top: 5%;
+			margin-left: 10%;
+			margin-bottom: 3%;
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class = "container">
+			<h3> Contact Us at the address: </h3>
+			<div id = "map"></div>
+			<div class = "contact"> IIIT ALLAHABAD </br> Devghat, Jhalwa </br> Prayagraj, U.P. : 211015 </br> Contact No: 8101496086</div>
+		</div>
+	</header>
+	<script>
+		function initMap() {
+  			// The location of Uluru
+  			var iiita = {lat: 25.430287, lng: 81.770789};
+  			// The map, centered at Uluru
+  			var map = new google.maps.Map(
+      			document.getElementById('map'), {zoom: 17, center: iiita});
+  			// The marker, positioned at Uluru
+  			var marker = new google.maps.Marker({position: iiita, map: map});
+		}
+	</script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcjux3Oe1gxK_-klc3mgNZ7vmRo-qDQJc&callback=initMap">
+    </script>
+</body>
+</html>
